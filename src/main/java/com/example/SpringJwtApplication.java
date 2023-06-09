@@ -47,6 +47,8 @@ public class SpringJwtApplication {
 			userService.saveUser(admin);
 			userService.saveUser(invitado);
 			userService.saveUser(user);
+
+			//TODO: quitar esta linea
 		};
 	}
 
